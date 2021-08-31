@@ -9,6 +9,8 @@ The Tools are :
 - OCI CLI (Command Line Interface of Oracle Cloud)
 - OpenJdk 
 - Vault
+- Ansible
+- OCI Ansible Collection
 
 I put Vault client because it is nice to store all your Cloud secrets in Vault. You can get all of them in just one curl except your SSH files because with curl some \n was lost in the keys and so I used Vault client to get SSH files (base64 encoded).
 
